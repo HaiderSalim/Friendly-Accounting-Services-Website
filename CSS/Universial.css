@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Work Sans");
+
+body{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+header >*, section >*{
+    padding: 0% 3%;
+}
+
+nav{
+    background-color: #A0F1BD;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.btn{
+    background-color: #2E4F21;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 11vw;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: x-small;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: #2E4F21;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #2E4F21;
+    font-weight: 700;
+}
+
+/* Events */
+.btn:hover{
+    animation: btn_hover_effect 0.7s ease-in-out forwards;
+}
+
+/* Animations */
+@keyframes btn_hover_effect{
+    0% {background-color: #2E4F21; color: white;}
+    100% {background-color: white; color: #2E4F21;}
+}
