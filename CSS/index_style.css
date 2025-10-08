@@ -75,6 +75,7 @@
     border-radius: 15px;
     gap: 6vw;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.404);
+    /* overflow:scroll; */
 }
 .banner_section_img{
 }
@@ -87,7 +88,7 @@
     gap: 40px;
 }
 .banner_section_text_heading{
-    font-size: 3vw;
+    font-size: 2.8vw;
     font-weight: 500;
 }
 .banner_section_text_para{
@@ -109,9 +110,89 @@
     background-color: white;
     text-align: center;
     align-content: center;
+    overflow-x: auto;
+}
+
+/* Review Section */
+.review_section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 90px;
+}
+.review_section_heading{
+    font-size: 4.5vw;
+    font-weight: 500;
+}
+.review_section_para{
+    font-size: 1.2vw;
+}
+.review_section_reviewtext{
+    font-weight: 300;
+}
+.review_section_box{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    height: 60vh;
+    width: 80vw;
+}
+.review_section_qote_section{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    border-left: gray solid 1px;
+    padding: 0% 2%;
+    height: 100%;
+}
+.review_section_reviewer_selection{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.review_section_reviewer_box{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    width: 20vw;
+    height: 20vh;
+    padding: 0% 5%;
+    border-radius: 15px;
+}
+.reviewer_active{
+    background-color: #2E4F21;
+    
+}
+.reviewer_active .reviewer_box_heading, .reviewer_active .reviewer_box_para{
+    color: white !important;
+}
+.reviewer_box_heading{
+    border-top: solid gray 1px;
+    color: rgba(0, 0, 0, 0.685);
+    font-weight: 500;
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+}
+.reviewer_box_para{
+    color: rgba(0, 0, 0, 0.685);
+    font-weight: 500;
+    font-size: 0.7vw;
 }
 
 /* Events */
-
+.banner_section_badge:hover{
+    animation: _hover_effect 0.7s ease-in-out forwards;
+}
+.btn_services:hover{
+    animation: _hover_effect 0.7s ease-in-out forwards;
+}
 
 /* Animations */
+@keyframes _hover_effect{
+    0% {background-color: white; color: rgb(48, 48, 48);}
+    100% {background-color: #A0F1BD; color: black;}
+}
