@@ -19,11 +19,12 @@
     display: flex;
 }
 .hero_section_heading{
-    font-size: 80px;
+    font-size: 5vw;
     font-weight: 500;
 }
 .hero_section_para{
     margin-top: 15px;
+    font-size: 1vw;
 }
 .hero_section_img{
     max-width: fit-content;
@@ -34,23 +35,80 @@
 
 /* Services Section */
 .services_section{
-    height: 70vh;
-    width: 70vw;
+    height: 60vh;
+    width: 60vw;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 15%;
+    gap: 30px;
 }
 .services_section_para{
     margin: 0px 10px 0px 10px;
+    font-size: 1vw;
 }
 .services_section_heading{
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 500;
 }
 .btn_services{
+    width: 7vw;
+}
 
+/* Banner Cards */
+.banner_section{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 6vh;
+    margin-top: 80px;
+}
+.banner_section_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2F8DC;
+    width: 70vw;
+    height: 55vh;
+    border-radius: 15px;
+    gap: 6vw;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.404);
+}
+.banner_section_img{
+}
+.banner_section_text_section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    width: 30vw;
+    gap: 40px;
+}
+.banner_section_text_heading{
+    font-size: 3vw;
+    font-weight: 500;
+}
+.banner_section_text_para{
+    font-size: 1vw;
+}
+.banner_section_badges_section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+.banner_section_badge{
+    color: rgb(48, 48, 48);
+    font-weight: 300;
+    font-size: 1vw;
+    border-radius: 8px;
+    width: 7vw;
+    height: 5vh;
+    background-color: white;
+    text-align: center;
+    align-content: center;
 }
 
 /* Events */
