@@ -1,8 +1,4 @@
 /* Header */
-.nav_link{
-    font-size: small;
-    padding-right: 1vw;
-}
 
 /* Hero Section */
 .hero_section{
@@ -274,7 +270,21 @@
     width: 6vw;
 }
 
-/* E */
+/* Experts section */
+.experts_section{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 50px;
+    margin-top: 80px;
+}
+.experts_section_heading{
+    font-size: 4.5vw;
+    font-weight: 300;
+}
 
 /* Events */
 .banner_section_badge:hover{

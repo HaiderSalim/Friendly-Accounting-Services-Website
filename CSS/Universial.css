@@ -8,13 +8,17 @@ body{
 header >*, section >*{
     padding: 0% 3%;
 }
-
+/* NavBar */
 nav{
     background-color: #A0F1BD;
     height: 7vh;
     display: flex;
     align-items: center;
     justify-content:space-between;
+}
+.nav_link{
+    font-size: small;
+    padding-right: 1vw;
 }
 
 .btn{
@@ -41,13 +45,57 @@ a{
     font-weight: 700;
 }
 
+/* Footer */
+.footer_section{
+    height: 60vh;
+    background-color: #2E4F21;
+    margin-top: 80px;
+    padding: 2%;
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+.footer_box{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+    width: 50vw;
+}
+.footer_title{
+    color: white !important;
+    font-weight: 200;
+}
+.footer_small_text{
+    color: white;
+    font-size: 0.7vw;
+}
+.footer_link{
+    color: white;
+    font-size: small;
+    padding-right: 1vw;
+    font-weight: 100;
+}
+.btn_footer{
+    color: black;
+    background-color: white;
+}
+
 /* Events */
 .btn:hover{
     animation: btn_hover_effect 0.7s ease-in-out forwards;
+}
+.btn_footer:hover{
+    animation: btn_footer_hover_effect 0.7s ease-in-out forwards;
 }
 
 /* Animations */
 @keyframes btn_hover_effect{
     0% {background-color: #2E4F21; color: white;}
     100% {background-color: white; color: #2E4F21;}
+}
+@keyframes btn_footer_hover_effect{
+    0% {background-color: white; color: black;}
+    100% {background-color: #A0F1BD; color: black;}
 }
