@@ -107,16 +107,6 @@ a {
 
 /* Tablet Screan */
 @media (min-width: 800px) and (max-width: 1279px) {
-    body {
-        margin: 0;
-        font-family: 'Work Sans';
-    }
-
-    header>*,
-    section>* {
-        padding: 0% 3%;
-    }
-
     /* NavBar */
     nav {
         background-color: #A0F1BD;
@@ -129,35 +119,6 @@ a {
     .nav_link {
         font-size: small;
         padding-right: 1vw;
-    }
-
-    .btn {
-        background-color: #2E4F21;
-        border: none;
-        border-radius: 20px;
-        color: white;
-        height: 40px;
-        width: 11vw;
-        font-weight: 400;
-        cursor: pointer;
-        font-size: x-small;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    p {
-        color: #2E4F21;
-        margin: 0;
-        padding: 0;
-    }
-
-    a {
-        text-decoration: none;
-        color: #2E4F21;
-        font-weight: 700;
     }
 
     /* Footer */

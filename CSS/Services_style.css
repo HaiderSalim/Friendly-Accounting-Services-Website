@@ -1,1 +1,54 @@
-/*  */
+/* Hero Section */
+.hero_section{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_section_text{
+    width: 50vw;
+    flex-flow: column;
+    display: flex;
+}
+.hero_section_heading{
+    font-size: 5vw;
+    font-weight: 500;
+}
+.hero_section_para{
+    margin-top: 15px;
+    font-size: 1vw;
+}
+.hero_section_img{
+    max-width: fit-content;
+}
+.btn_hero{
+    margin-top: 50px;
+}
+
+/* Break Section */
+.break_section{
+    background-image: url(../Assets/Image\ break\ section-2.png);
+    height: 90vh;
+    width: 94%;
+    background-size: cover;
+    background-position: 70% 80%;
+    margin-top: 80px;
+}
+
+/* How_it_works_section */
+.How_it_works_section{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.How_it_works_text_box{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.How_it_works_heading{
+    font-size: 5vw;
+}
+.How_it_works_para{
+
+}
