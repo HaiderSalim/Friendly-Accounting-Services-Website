@@ -107,6 +107,7 @@ a {
 
 /* Tablet Screan */
 @media (min-width: 800px) and (max-width: 1279px) {
+
     /* NavBar */
     nav {
         background-color: #A0F1BD;
@@ -195,5 +196,15 @@ a {
     100% {
         background-color: #A0F1BD;
         color: black;
+    }
+}
+
+/** Mobile Screen */
+@media (max-width: 799px) {
+    .btn_footer {
+        width: 20vw;
+    }
+    .footer_link {
+        padding-right: 15vw;
     }
 }

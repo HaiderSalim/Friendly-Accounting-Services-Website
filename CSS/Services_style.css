@@ -39,7 +39,13 @@
 .How_it_works_section{
     display: flex;
     flex-flow: column;
-    gap: 20px;
+    gap: 120px;
+    margin-top: 80px;
+}
+.How_it_works_steps_box{
+    display: flex;
+    flex-flow: column;
+    gap: 120px;
 }
 .How_it_works_text_box{
     display: flex;
@@ -49,6 +55,100 @@
 .How_it_works_heading{
     font-size: 5vw;
 }
-.How_it_works_para{
+.How_it_works_step_heading{
+    font-size: 3vw;
+    font-weight: 500;
+}
+.step_num{
+    font-size: 10vw;
+    font-weight: 100;
+}
+.How_it_works_step{
+    display: flex;
+    gap: 7vw;
+    justify-content: space-between;
+}
+.step_text_box{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    width: 28vw;
+}
+.How_it_works_step_img{
+    border-radius: 20px;
+    width: 20vw;
+}
 
+/* Philosophy section */
+.philosophy_section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 70px;
+}
+.philosophy_small_text{
+    font-size: 0.8vw;
+}
+.philosophy_heading{
+    font-size: 5vw;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.philosophy_box_para{
+    font-size: 2.5vw;
+    width: 70vw;
+}
+.philosophy_boxes_container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.philosophy_box{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 300px;
+    width: 90vw;
+    background-color:#D2F8DC;
+    border-radius: 10px;
+}
+
+/* Connect section */
+.connect_section{
+    display: flex;
+    margin-top: 80px;
+}
+.connect_section_box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 50vw;
+}
+.connect_section_heading{
+    font-size: 5vw;
+    font-weight: 500;
+}
+.connect_section_img{
+    background-image: url("../Assets/connect-calculator.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    width: 40vw;
+    height: 80vh;
+}
+.btn_connect{
+    font-size: 0.8vw;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 25px;
 }

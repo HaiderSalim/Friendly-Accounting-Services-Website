@@ -1,7 +1,5 @@
-/* Header */
-
-/* Hero Section */
-.hero_section{
+/** Hero Section */
+.hero_section {
     background-color: #A0F1BD;
     height: 70vh;
     display: flex;
@@ -9,28 +7,33 @@
     align-items: center;
     border-radius: 0px 0px 20px 20px;
 }
-.hero_section_text{
+
+.hero_section_text {
     width: 50vw;
     flex-flow: column;
     display: flex;
 }
-.hero_section_heading{
+
+.hero_section_heading {
     font-size: 5vw;
     font-weight: 500;
 }
-.hero_section_para{
+
+.hero_section_para {
     margin-top: 15px;
     font-size: 1vw;
 }
-.hero_section_img{
+
+.hero_section_img {
     max-width: fit-content;
 }
-.btn_hero{
+
+.btn_hero {
     margin-top: 50px;
 }
 
-/* Services Section */
-.services_section{
+/** Services Section */
+.services_section {
     height: 60vh;
     width: 60vw;
     display: flex;
@@ -41,27 +44,31 @@
     margin-left: 15%;
     gap: 30px;
 }
-.services_section_para{
+
+.services_section_para {
     margin: 0px 10px 0px 10px;
     font-size: 1vw;
 }
-.services_section_heading{
+
+.services_section_heading {
     font-size: 4vw;
     font-weight: 500;
 }
-.btn_services{
+
+.btn_services {
     width: 7vw;
 }
 
-/* Banner Cards */
-.banner_section{
+/** Banner Cards */
+.banner_section {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
     gap: 6vh;
     margin-top: 80px;
 }
-.banner_section_banner{
+
+.banner_section_banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +81,7 @@
     /* overflow:scroll; */
 }
 
-.banner_section_text_section{
+.banner_section_text_section {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -82,20 +89,24 @@
     width: 30vw;
     gap: 40px;
 }
-.banner_section_text_heading{
+
+.banner_section_text_heading {
     font-size: 2.8vw;
     font-weight: 500;
 }
-.banner_section_text_para{
+
+.banner_section_text_para {
     font-size: 1vw;
 }
-.banner_section_badges_section{
+
+.banner_section_badges_section {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 1vw;
 }
-.banner_section_badge{
+
+.banner_section_badge {
     color: rgb(48, 48, 48);
     font-weight: 300;
     font-size: 1vw;
@@ -108,32 +119,37 @@
     overflow-x: auto;
 }
 
-/* Review Section */
-.review_section{
+/** Review Section */
+.review_section {
     display: flex;
     flex-flow: column;
     align-items: center;
     margin-top: 80px;
     gap: 90px;
 }
-.review_section_heading{
+
+.review_section_heading {
     font-size: 4.5vw;
     font-weight: 500;
 }
-.review_section_para{
+
+.review_section_para {
     font-size: 1.2vw;
 }
-.review_section_reviewtext{
+
+.review_section_reviewtext {
     font-weight: 300;
 }
-.review_section_box{
+
+.review_section_box {
     display: flex;
     justify-content: center;
     gap: 10vw;
     height: 60vh;
     width: 80vw;
 }
-.review_section_qote_section{
+
+.review_section_qote_section {
     display: flex;
     flex-flow: column;
     gap: 20px;
@@ -141,12 +157,14 @@
     padding: 0% 2%;
     height: 100%;
 }
-.review_section_reviewer_selection{
+
+.review_section_reviewer_selection {
     display: flex;
     flex-flow: column;
     align-items: center;
 }
-.review_section_reviewer_box{
+
+.review_section_reviewer_box {
     display: flex;
     flex-flow: column;
     align-items: start;
@@ -157,14 +175,17 @@
     padding: 0% 5%;
     border-radius: 15px;
 }
-.reviewer_active{
+
+.reviewer_active {
     background-color: #2E4F21;
-    
 }
-.reviewer_active .reviewer_box_heading, .reviewer_active .reviewer_box_para{
+
+.reviewer_active .reviewer_box_heading,
+.reviewer_active .reviewer_box_para {
     color: white !important;
 }
-.reviewer_box_heading{
+
+.reviewer_box_heading {
     border-top: solid gray 1px;
     color: rgba(0, 0, 0, 0.685);
     font-weight: 500;
@@ -172,14 +193,15 @@
     padding-top: 10px;
     width: 100%;
 }
-.reviewer_box_para{
+
+.reviewer_box_para {
     color: rgba(0, 0, 0, 0.685);
     font-weight: 500;
     font-size: 0.7vw;
 }
 
-/* Break Section */
-.break_section{
+/** Break Section */
+.break_section {
     background-image: url("../Assets/Image\ break\ section-1.png");
     height: 90vh;
     width: 94%;
@@ -188,33 +210,38 @@
     margin-top: 80px;
 }
 
-/* Banefite Moto */
-.Benefits_section{
+/** Banefite Moto */
+.Benefits_section {
     display: flex;
     flex-flow: column;
     gap: 50vh;
 }
-.company_moto_section{
+
+.company_moto_section {
     display: flex;
     justify-content: center;
     gap: 2vw;
     margin-top: 80px;
 }
-.company_moto_section_heading{
+
+.company_moto_section_heading {
     font-size: 4.6vw;
     font-weight: 100;
 }
-.company_moto_section_para{
+
+.company_moto_section_para {
     padding-top: 10px;
     width: 50vw;
     font-size: 1vw;
 }
-.company_benefit_info_section{
+
+.company_benefit_info_section {
     display: flex;
     justify-content: center;
     gap: 5vw;
 }
-.company_benefit_info_box{
+
+.company_benefit_info_box {
     display: flex;
     flex-flow: column;
     gap: 3vh;
@@ -222,23 +249,26 @@
     padding-left: 3vw;
     width: 22vw;
 }
-.company_benefit_info_box_heading{
+
+.company_benefit_info_box_heading {
     font-weight: 200;
     font-size: 2.4vw;
 }
-.company_benefit_info_box_para{
+
+.company_benefit_info_box_para {
     font-weight: 100;
 }
 
-/* CTA section */
-.CTA_section{
+/** CTA section */
+.CTA_section {
     display: flex;
     justify-content: center;
     margin-top: 80px;
     gap: 5vw;
     height: 50vh;
 }
-.CTA_section_card{
+
+.CTA_section_card {
     display: flex;
     flex-flow: column;
     align-items: start;
@@ -250,28 +280,34 @@
     padding-right: 4vw;
     gap: 30px;
 }
-.CTA_section_card_heading{
+
+.CTA_section_card_heading {
     color: white;
     font-weight: 300;
     font-size: 3vw;
 }
-.CTA_section_card_para{
+
+.CTA_section_card_para {
     color: white;
 }
-.CTA_section_img{
+
+.CTA_section_img {
     border-radius: 20px;
     width: 40vw;
     background-image: url("../Assets/CTA\ Image.png");
     background-size: cover;
-}
-.btn_CTA{
-    background-color: white;
-    color: black;
-    width: 6vw;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-/* Experts section */
-.experts_section{
+.btn_CTA {
+    background-color: white;
+    color: black;
+    width: 10vw;
+}
+
+/** Experts section */
+.experts_section {
     text-align: center;
     display: flex;
     flex-flow: column;
@@ -281,24 +317,205 @@
     gap: 50px;
     margin-top: 80px;
 }
-.experts_section_heading{
+
+.experts_section_heading {
     font-size: 4.5vw;
     font-weight: 300;
 }
 
+.experts_btn {
+    width: 15vw;
+    height: 7vh;
+    border-radius: 25px;
+}
+
 /* Events */
-.banner_section_badge:hover{
+.banner_section_badge:hover {
     animation: _hover_effect 0.5s ease-in-out forwards;
 }
-.btn_services:hover{
+
+.btn_services:hover {
     animation: _hover_effect 0.7s ease-in-out forwards;
 }
-.btn_CTA:hover{
+
+.btn_CTA:hover {
     animation: _hover_effect 0.5s ease-in-out forwards;
 }
 
 /* Animations */
-@keyframes _hover_effect{
-    0% {background-color: white; color: rgb(48, 48, 48);}
-    100% {background-color: #A0F1BD; color: black;}
+@keyframes _hover_effect {
+    0% {
+        background-color: white;
+        color: rgb(48, 48, 48);
+    }
+
+    100% {
+        background-color: #A0F1BD;
+        color: black;
+    }
+}
+
+/* Tablet Screen */
+@media (min-width: 800px) and (max-width: 1279px) {
+
+    /** Banner Cards */
+    .banner_section_banner {
+        margin-left: 0 !important;
+        width: 90vw;
+    }
+
+    .banner_section {
+        align-items: center;
+    }
+
+    /** Banefite Moto */
+    .company_moto_section_para {
+        font-size: 2vw;
+    }
+
+    .company_benefit_info_section {
+        flex-flow: column;
+        margin-bottom: 90px;
+    }
+
+    .company_benefit_info_box {
+        width: 90vw;
+        border-top: gray solid 2px;
+        border-left: none;
+        padding-top: 15px;
+        padding-left: 0;
+    }
+
+    .company_benefit_info_box_para {
+        width: 55vw;
+        font-size: 1.5vw;
+    }
+
+    /* CTA section */
+    .CTA_section {
+        gap: 2vw;
+    }
+}
+
+/** Mobile Screen */
+@media (max-width: 799px) {
+
+    /** Hero Section */
+    .hero_section {
+        flex-flow: column-reverse;
+        height: auto;
+        gap: 5vh;
+        padding: 5vh 0;
+    }
+
+    .hero_section_img img {
+        width: 70vw;
+    }
+
+    .hero_section_text {
+        width: 80vw;
+    }
+
+    .hero_section_heading {
+        font-size: 7vw;
+    }
+
+    .hero_section_para {
+        font-size: 2vw;
+    }
+
+    .btn_hero {
+        width: 20vw;
+        height: 6vh;
+    }
+
+    /** Services Section */
+    .services_section {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services_section_heading {
+        font-size: 6vw;
+    }
+
+    .services_section_para {
+        font-size: 2vw;
+    }
+
+    .btn_services {
+        width: 15vw;
+        height: 6vh;
+    }
+
+    /** Banner Cards */
+    .banner_section_banner {
+        flex-flow: column;
+        height: auto;
+        margin-left: 0 !important;
+        width: 90vw;
+        gap: 3vh;
+        padding: 5vh 0;
+    }
+
+    .banner_section {
+        align-items: center;
+    }
+
+    .banner_section_text_section {
+        width: 70vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    /** Banefite Moto */
+    .company_moto_section_para {
+        font-size: 2vw;
+    }
+
+    .company_benefit_info_section {
+        flex-flow: column;
+        margin-bottom: 90px;
+    }
+
+    .company_benefit_info_box {
+        width: 90vw;
+        border-top: gray solid 2px;
+        border-left: none;
+        padding-top: 15px;
+        padding-left: 0;
+    }
+
+    .company_benefit_info_box_para {
+        width: 55vw;
+        font-size: 1.5vw;
+    }
+
+    /** Review Section */
+    .review_section_box {
+        flex-flow: column;
+        height: auto;
+        width: 80vw;
+        gap: 5vh;
+    }
+
+    .review_section_qote_section {
+        border-left: none;
+        padding: 2% 0%;
+        width: 100%;
+    }
+
+    .review_section_reviewer_selection {
+        flex-flow: row;
+    }
+
+    /** CTA section */
+    .CTA_section {
+        gap: 2vw;
+    }
+
+    .experts_btn {
+        width: 20vw;
+    }
 }
